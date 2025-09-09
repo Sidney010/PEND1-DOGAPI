@@ -1,0 +1,38 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+    padding: 5px;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    background-color: wheat;
+}
+.barra{
+    width: 100%;
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+}
+.barra input{
+    width: 100%;
+}
+.barra button{
+    width: 200px;
+}
+main{
+    padding: 5px;
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(9, 1fr);
+    gap: 2px;
+}
+.card-cachorro img{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 12px;
+}
