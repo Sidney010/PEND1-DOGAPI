@@ -26,6 +26,6 @@ async function buscarImagens(breed) {
 botaoBuscar.addEventListener('click', async () => {
     const entrada = document.getElementById('entrada').value
     const imagens = await buscarImagens(entrada)
-    main.textContent = ''
+    main.replaceChildren()
     imagens.forEach(img => mostrarCachorro(img))
 })
