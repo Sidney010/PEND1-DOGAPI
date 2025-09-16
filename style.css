@@ -47,5 +47,5 @@ main{
     opacity: 100%;
     transform: scale(1.05);
     transform: rotateY(180deg);
-    border-radius: 32px;
+    border-radius: 100px;
 }
